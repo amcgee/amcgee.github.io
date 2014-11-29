@@ -4,7 +4,10 @@ description: "Lots of life, some of it in writing."
 header-img: "img/home-bg.jpg"
 ---
 
-<p> My name is <a href="/about">Austin McGee</a>.  When I write things they will show up here.</p>
+<p> Hello, my name is <a href="/about">Austin McGee</a>.</p>
+{% if site.posts | size == 0 %}
+<p>When I write things they will show up here.</p>
+{% endif %}
 
 {% for post in paginator.posts %}
 <div class="post-preview">

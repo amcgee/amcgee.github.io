@@ -6,7 +6,7 @@
 
 - name: MoMo (Mobile Monitor)
   img: momo-components.jpg
-  link: welldone.org/MoMo
+  link: welldone.github.io/momo
   github: welldone/MoMo-Firmware
   description: "A product of <a href='http://www.welldone.org'>WellDone.org</a>. Modular, low-cost, low-power hardware for remote monitoring.  Improving reliable service provision for people in need."
 

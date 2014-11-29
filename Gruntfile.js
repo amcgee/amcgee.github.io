@@ -7,6 +7,10 @@ module.exports = function(grunt) {
             main: {
                 src: 'js/<%= pkg.name %>.js',
                 dest: 'js/<%= pkg.name %>.min.js'
+            },
+            contact: {
+                src: 'js/contact.js',
+                dest: 'js/contact.min.js'
             }
         },
         less: {

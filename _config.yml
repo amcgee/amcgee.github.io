@@ -1,6 +1,5 @@
 # Site settings
 title: Molto Vivo
-email: me@austinmcgee.net
 description: "Musings on life by Austin McGee!"
 baseurl: ""
 url: "http://austinmcgee.net"
@@ -14,3 +13,7 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
+
+# Gems
+gems:
+  - jekyll-redirect-from

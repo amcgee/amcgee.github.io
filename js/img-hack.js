@@ -1,4 +1,4 @@
 $('img').each(function() {
-    $(this).addClass( $(this).attr('title'));
-    $(this).attr( 'title', $(this).attr('alt') );  
+	if ( !$(this).attr('title') || $(this).attr('title').length === 0 )
+    $(this).attr( 'title', $(this).attr('alt') );
 });

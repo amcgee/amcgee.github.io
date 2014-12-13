@@ -428,3 +428,14 @@ img.project-image {
     float: left;
   }
 }
+
+.post p > code {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+}

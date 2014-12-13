@@ -67,7 +67,7 @@ $('img').each(function() {
 
 And that's it.  Now, any value in the original "title" markdown field will be interpreted as the CSS float value for the rendered image.
 
-There are a few improvements that could be made to make this more customizable, purdier, and responsive.  I use something like this:
+There are a few improvements that could be made to make this more customizable, purdier, and responsive.  I would use something like this:
 
 {% highlight javascript %}
 $('img').each(function() {

@@ -413,3 +413,18 @@ p.project-description {
 img.project-image {
   max-width: 300px;
 }
+
+.post img {
+  background-color: #f7f7f7;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  .post img.align-right {
+    float: right;
+  }
+  .post img.align-left {
+    float: left;
+  }
+}

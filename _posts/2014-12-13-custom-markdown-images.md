@@ -44,7 +44,7 @@ This is fairly straightforward.  Now we can simplify our image markdown tag with
 
 There's a fair amount of whitespace to the right of these images.  Depending on your personal preferences this might be OK, and you could center all post images in CSS, but sometimes you might want to include an image as an "aside", appearing next to the text instead of interrupting its flow.  This technique has been employed forever in newspaper layouts and is a fairly common practice in blogs (see: wordpress image alignment options).
 
-Let's say you want to employ this technique.  Chances are you don't want every single image in every post to be right-justified, so using vanilly javascript you're SOL. By some happy coincidence, we've just developed a way to specify both alt and title text in one go, leaving us with a handy slot to stick some arbitrary information specific to each individual image.  Let's design our tiny little interface first, without implementing anything:
+Let's say you want to employ this technique.  Chances are you don't want every single image in every post to be right-justified, so using vanilla css you're SOL. By some happy coincidence, we've just developed a way to specify both alt and title text in one go, leaving us with a handy slot to stick some arbitrary information specific to each individual image.  Let's design our tiny little interface first, without implementing anything:
 
 `![<alt_and_title>](<src> "<alignment>")`
 
@@ -52,7 +52,7 @@ i.e.
 
 `![Some random image](/img/post-image.jpg "right")`
 
-![Some random image](/img/post-image.jpg){: .align-right}
+![Some random image](/img/post-image.jpg){: .pull-right}
 
 Now, if we're included the javascript above in our page this has literally no effect on the end result of the rendered post, since the "right" title text is immediately overwritten by the alt text.  So let's do something with that alignment data before it gets obliterated.
 
@@ -63,7 +63,7 @@ $('img').each(function() {
 });
 {% endhighlight %}
 
-![Some random image](/img/post-image.jpg){: .align-left}
+![Some random image](/img/post-image.jpg){: .pull-left}
 
 And that's it.  Now, any value in the original "title" markdown field will be interpreted as the CSS float value for the rendered image.
 
@@ -96,10 +96,10 @@ with this css:
 }
 {% endhighlight %}
 
-and use it like so (example above):
+and use it like so:
 
 `![Some random image](/img/post-image.jpg "align-left")`
 
-*Note*: If you're using bootstrap you could just use the built-in `pull-left` class.
+*Note*: If you're using bootstrap you could use the built-in `pull-left` class (as I've done above for the sake of argument) but this doesn't look as good on small screens, so I prefer to customize it.
 
 This is a powerful technique when the extension isn't built-in to your markdown processor since you can assign any arbitrary class to an individual post image without having to muck around with HTML in your pretty .md files.  You could go a few steps farther to support multiple classes or to re-introduce support for separate title and alt text, but I'll leave that as an exercise for the reader.

@@ -8,7 +8,7 @@ linkedin_username: amcgee
 github_username:  amcgee
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 paginate: 5

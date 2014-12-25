@@ -4,6 +4,7 @@ title:      "Custom image styles in vanilla markdown"
 subtitle:   "Everybody has a different 'good side'."
 author:     "Austin McGee"
 header-img: "img/post-bg-01.jpg"
+draft: true
 ---
 
 *This is my ice-breaker piece - it's intentionally banal to ensure there's plenty of upward mobility potential.*
@@ -30,11 +31,11 @@ Notice that the title and alt text (used for accessibility when a browser needs,
 
 Instead of duplicating the "Some random image" text, we could use javascript to automatically copy the alt text into the image's 'title' attribute like so (this uses jquery for brevity):
 
-{% highlight javascript %}
+```javascript
 $('img').each(function() {  
     $(this).attr( 'title', $(this).attr('alt') );  
 });
-{% endhighlight %}
+```
 
 This is fairly straightforward.  Now we can simplify our image markdown tag with the same result:
 
@@ -56,12 +57,12 @@ i.e.
 
 Now, if we're included the javascript above in our page this has literally no effect on the end result of the rendered post, since the "right" title text is immediately overwritten by the alt text.  So let's do something with that alignment data before it gets obliterated.
 
-{% highlight javascript %}
+```javascript
 $('img').each(function() {
     $(this).css( 'float', $(this).attr('title') );
     $(this).attr( 'title', $(this).attr('alt') );  
 });
-{% endhighlight %}
+```
 
 ![Some random image](/img/post-image.jpg){: .pull-left}
 
@@ -69,16 +70,16 @@ And that's it.  Now, any value in the original "title" markdown field will be in
 
 There are a few improvements that could be made to make this more customizable, purdier, and responsive.  I would use something like this:
 
-{% highlight javascript %}
+```javascript
 $('img').each(function() {
     $(this).addClass( $(this).attr('title'));
     $(this).attr( 'title', $(this).attr('alt') );  
 });
-{% endhighlight %}
+```
 
 with this css:
 
-{% highlight css %}
+```css
 .post img {
   background-color: #f7f7f7;
   padding: 5px;
@@ -94,7 +95,7 @@ with this css:
     float: left;
   }
 }
-{% endhighlight %}
+```
 
 and use it like so:
 

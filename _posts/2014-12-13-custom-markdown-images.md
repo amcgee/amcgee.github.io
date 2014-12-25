@@ -53,7 +53,7 @@ i.e.
 
 `![Some random image](/img/post-image.jpg "right")`
 
-![Some random image](/img/post-image.jpg){: .pull-right}
+![Some random image](/img/post-image.jpg "pull-right")
 
 Now, if we're included the javascript above in our page this has literally no effect on the end result of the rendered post, since the "right" title text is immediately overwritten by the alt text.  So let's do something with that alignment data before it gets obliterated.
 
@@ -64,7 +64,7 @@ $('img').each(function() {
 });
 ```
 
-![Some random image](/img/post-image.jpg){: .pull-left}
+![Some random image](/img/post-image.jpg "pull-left")
 
 And that's it.  Now, any value in the original "title" markdown field will be interpreted as the CSS float value for the rendered image.
 

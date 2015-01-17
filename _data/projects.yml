@@ -6,7 +6,7 @@
 
 - name: MoMo (Mobile Monitor)
   img: momo-components.jpg
-  link: welldone.github.io/momo
+  link: momo.welldone.org
   github: welldone/MoMo-Firmware
   description: "A product of <a href='http://www.welldone.org'>WellDone.org</a>. Modular, low-cost, low-power hardware for remote monitoring.  Improving reliable service provision for people in need."
 
@@ -14,3 +14,7 @@
   img: strato-action.jpg
   link: strato.welldone.org
   description: "A product of <a href='http://www.welldone.org'>WellDone.org</a>. A SaaS device management, data aggregation, and data analytics platform supporting MoMo deployments."
+
+- name: Ham
+  github: amcgee/Ham
+  description: "An amateur radio operator for dokku app development"

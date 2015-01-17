@@ -16,7 +16,9 @@ header-img: "img/projects-bg.jpg"
 <div class="row">
 	<div class="col-lg-8">
 		<span>
+		  {% if project.link %}
 			<a href="http://{{ project.link }}"><i class="fa fa-globe fa-fw "></i></a>
+			{% endif %}
 			{% if project.github %}
 			<a href="http://www.github.com/{{ project.github }}"><i class="fa fa-github fa-fw "></i></a>
 			{% endif %}
@@ -24,7 +26,9 @@ header-img: "img/projects-bg.jpg"
 		<p class="project-description">{{ project.description }}</p>
 	</div>
 	<div class="col-lg-4">
+		{% if project.img %}
 		<img class="img-responsive project-image" src="/img/{{ project.img }}" />
+		{% endif %}
 	</div>
 </div>
 {% endfor %}

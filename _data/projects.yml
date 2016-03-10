@@ -17,4 +17,5 @@
 
 - name: Ham
   github: amcgee/Ham
+  link: github.com/amcgee/ham
   description: "An amateur radio operator for dokku app development"

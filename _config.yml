@@ -3,7 +3,6 @@ title: Austin McGee
 description: "Musings on life by Austin McGee!"
 baseurl: ""
 url: "http://austinmcgee.net"
-twitter_username: awmcgee
 linkedin_username: amcgee
 github_username:  amcgee
 instagram_username: awesleym
@@ -15,6 +14,6 @@ permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-redirect-from

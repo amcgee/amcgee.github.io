@@ -411,7 +411,31 @@ p.project-description {
   margin-top: 0px;
 }
 img.project-image {
-  max-width: 300px;
+  margin: 0 auto;
+}
+
+.home-section-link {
+  border:1px solid #333;
+  border-radius:5px;
+  padding:20px;
+  margin:20px;
+}
+
+.home-section-link:hover {
+  background-color: #EFEFEF;
+  text-decoration: none;
+}
+
+.home-section-link img:hover {
+  cursor: pointer;
+}
+
+.home-section-link h3 {
+  margin-top: 5px;
+}
+
+small a {
+  text-decoration: underline;
 }
 
 .post img {

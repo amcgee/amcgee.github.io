@@ -1,8 +1,8 @@
-- name: REM.js
-  img: REM-demo-tape-007.jpg
-  link: remjs.org
-  github: amcgee/remjs
-  description: "A straightforward and full-featured, testable REST API engine for NodeJS.  Dream about data models, let REM take care of the rest."
+- name: GymBeta
+  img: gymbeta-logo.png
+  link: gymbeta.com
+  description: "A proof-of-concept project at <a href='http://www.wingedtech.com'>WingedTech</a>.<br/>A  climbing gym database built using <a href='https://reactjs.org'>React</a>, <a href='https://graphql.org/'>GraphQL</a>, and <a href='https://material-ui-next.com'>Material-UI</a>."
+  hidden: true
 
 - name: MoMo (Mobile Monitor)
   img: momo-components.jpg
@@ -12,10 +12,15 @@
 
 - name: Strato
   img: strato-action.jpg
-  link: strato.welldone.org
   description: "A product of <a href='http://www.welldone.org'>WellDone.org</a>. A SaaS device management, data aggregation, and data analytics platform supporting MoMo deployments."
+
+- name: REM.js
+  img: REM-demo-tape-007.jpg
+  link: remjs.org
+  github: amcgee/remjs
+  description: "A straightforward and full-featured, testable REST API engine for NodeJS.  Dream about data models, let REM take care of the rest."
 
 - name: Ham
   github: amcgee/Ham
-  link: github.com/amcgee/ham
+  img: code-brackets.svg
   description: "An amateur radio operator for dokku app development"

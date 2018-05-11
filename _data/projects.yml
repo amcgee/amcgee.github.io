@@ -15,7 +15,6 @@
 
 - name: REM.js
   img: REM-demo-tape-007.jpg
-  link: remjs.org
   github: amcgee/remjs
   description: "A straightforward and full-featured, testable REST API engine for NodeJS.  Dream about data models, let REM take care of the rest."
 

@@ -1,0 +1,75 @@
+.flex-row-align-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  my-email::after {
+    content: attr(data-domain);
+  }
+  my-email::before {
+    content: attr(data-user) "\0040";
+  }
+  p.project-description {
+    margin-top: 0px;
+  }
+  img.project-image {
+    margin: 0 auto;
+  }
+  
+  .home-section-link {
+    border:1px solid #333;
+    border-radius:5px;
+    padding:20px;
+    margin:20px;
+  }
+  
+  .home-section-link:hover {
+    background-color: #EFEFEF;
+    text-decoration: none;
+  }
+  
+  .home-section-link img:hover {
+    cursor: pointer;
+  }
+  
+  .home-section-link h3 {
+    margin-top: 5px;
+  }
+  
+  small a {
+    text-decoration: underline;
+  }
+  
+  .post img {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+  }
+  @media (min-width: 768px) {
+    .post img.align-right {
+      float: right;
+    }
+    .post img.align-left {
+      float: left;
+    }
+  }
+  
+  .post p > code {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+  }

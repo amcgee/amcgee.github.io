@@ -17,7 +17,7 @@ If the count between lightning and thunder shrinks to one second or less it mean
 Chatting about the snacks we have stashed in our rain pant pockets, we resume our quick but unhurried descent.  Five minutes later, the first hail stones begin to fall.  They are small stones, about the size of buckshot pellets, but they arrive without the customary and softer rain prelude.  Our pace quickens.
 
 ![Muir Hut](/img/hailstorm/muir-hut.jpeg)
-> About one hour before the storm hit — Muir Hut, an austere construction atop the rugged Muir Pass, smells strongly of musty burlap sacs Muir Hut, John Muir Trail, Kings Canyon National...
+> About one hour before the storm hit — Muir Hut, an austere construction atop the rugged Muir Pass, smells strongly of musty burlap sacs
  
 As we round a sharp corner I notice another hiker a few switchbacks below taking off his pack and walking away from it.  Thinking the stranger may be taking cover from lightning, I raise my gaze to the sky and wait for the ominous flash of light or hopefully-delayed crack of thunder.  All I see is dark clouds.  Satisfied that we are in no immediate danger, I focus again on the trail we are hustling down.
 

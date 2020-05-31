@@ -8,10 +8,11 @@ github_username:  amcgee
 instagram_username: awesleym
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
+paginate_path: musings/page:num/
 exclude: ["node_modules"]
 
 # Plugins

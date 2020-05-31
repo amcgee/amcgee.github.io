@@ -28,7 +28,12 @@
     border:1px solid #333;
     border-radius:5px;
     padding:20px;
-    margin:20px;
+  }
+
+  .home-section-link img {
+    width: 140px;
+    height: 140px;
+    padding: 20px;
   }
   
   .home-section-link:hover {
@@ -74,3 +79,20 @@
     line-height: 1.42857143;
     color: #333;
   }
+
+  .post blockquote p:first-child {
+    margin-top: 0;
+  }
+
+.post img {
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .post img {
+    max-width: 166%;
+    margin-left: -33%;
+    margin-right: -33%;
+  }
+}
+  

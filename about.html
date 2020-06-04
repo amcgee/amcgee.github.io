@@ -46,7 +46,7 @@ header-img: "img/about-bg.jpg"
             href="https://observablehq.com/d/a00a2bad3c9862ba"
             target="_blank"
             rel="noreferrer noopenner"
-            >37 countries</a
+            ><span id="countryCount">...</span> countries</a
           ><br />
           (currently <i>Paris, France</i>)
         </small>
@@ -88,3 +88,15 @@ header-img: "img/about-bg.jpg"
     </div>
   </div>
 </div>
+
+<script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import notebook from "https://api.observablehq.com/d/a00a2bad3c9862ba.js?v=3";
+
+  const updateCountryCode = async () => {
+    const module = new Runtime().module(notebook);
+    const value = await module.value("countryCount");
+    document.querySelector("#countryCount").innerHTML = value
+  }
+  updateCountryCode()
+</script>

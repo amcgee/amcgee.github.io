@@ -96,7 +96,7 @@ There is ice in my boots.  Julie’s hands are frozen.
 ![A swollen river](/img/hailstorm/river.jpeg)
 > After the rain — looking back up the valley at the storm-swollen Middle Fork King’s River
 
-We come around a bend to a river crossing.  What was probably an easy rock hop two hours ago is now a raging torrent, terminating in a waterfall.  I evaluates three crossings, but there’s no way to avoid wading through the rushing water.  
+We come around a bend to a river crossing.  What was probably an easy rock hop two hours ago is now a raging torrent, terminating in a waterfall.  I evaluate three crossings, but there’s no way to avoid wading through the rushing water.  
 
 The family catches up and surveys the river.  They don’t look happy.  
 
@@ -142,6 +142,7 @@ Finally, we make it to camp by a skittle-yellow meadow.  Just before she dips be
 
 ![A cervine visitor](/img/hailstorm/cervine-visitor.jpeg)
 > A cervine visitor commiserates with hail-battered humans. (NB — never feed wildlife!) 
+
 Dinner is a delicious rehydrated burrito.  A doe, completely unafraid, makes curious overtures towards the newcomers, lending a surreal fairytale veneer to the scene. 
 
 “So, what about that guy shitting on the trail in a hailstorm?” I ask.   

@@ -6,7 +6,7 @@
     "author": "Start Bootstrap",
     "license": "Apache 2.0",
     "devDependencies": {
-        "grunt": "~0.4.5",
+        "grunt": "~1.3.0",
         "grunt-banner": "~0.2.3",
         "grunt-cli": "^1.3.2",
         "grunt-contrib-less": "~0.11.4",

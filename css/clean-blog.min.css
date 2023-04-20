@@ -1,6 +1,6 @@
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2020 Start Bootstrap
+ * Copyright 2023 Start Bootstrap
  * Licensed under  ()
  */
 
